@@ -6,6 +6,14 @@ int inputPositiveNumberA() {
 }
 
 int inputPositiveNumberB() {
+    int number;
+    
+    do {
+        cout << "Введите положительное число B: ";
+        cin >> number;
+    } while (number <= 0);
+    
+    return number;
 }
 
 int calculateRectangleArea(int length, int width) {
