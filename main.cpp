@@ -3,6 +3,14 @@
 using namespace std;
 
 int inputPositiveNumberA() {
+    int number;
+    
+    do {
+        cout << "Введите положительное число A: ";
+        cin >> number;
+    } while (number <= 0);
+    
+    return number;
 }
 
 int inputPositiveNumberB() {
