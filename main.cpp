@@ -12,6 +12,7 @@ int calculateRectangleArea(int length, int width) {
 }
 
 int calculateRectanglePerimeter(int length, int width) {
+    return 2 * (length + width);
 }
 
 int main() {
