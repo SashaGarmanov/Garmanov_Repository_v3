@@ -9,6 +9,7 @@ int inputPositiveNumberB() {
 }
 
 int calculateRectangleArea(int length, int width) {
+    return length * width;
 }
 
 int calculateRectanglePerimeter(int length, int width) {
